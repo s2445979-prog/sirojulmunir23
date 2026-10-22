@@ -1,0 +1,40 @@
+/* Palet: malam #1f2a44, amber #f0a93b, laut #3e7c8c, kertas #f4f6fa */
+:root{--malam:#1f2a44;--amber:#f0a93b;--laut:#3e7c8c;--kertas:#f4f6fa;--teks:#1b1f2a}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--teks);background:var(--kertas);line-height:1.65}
+h1,h2,h3{line-height:1.2;color:var(--malam)}
+a{color:var(--laut)}
+a:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+
+/* header + nav */
+header{background:var(--malam);color:#fff;padding:1rem 1.5rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.75rem}
+header .logo{font-size:1.4rem;font-weight:bold;color:var(--amber);text-decoration:none}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1.25rem}
+nav a{color:#fff;text-decoration:none;padding:.25rem 0;border-bottom:2px solid transparent}
+nav a:hover,nav a.aktif{border-bottom-color:var(--amber)}
+
+/* hero */
+.hero{position:relative;color:#fff}
+.hero img{width:100%;height:340px;object-fit:cover;display:block}
+.hero .teks{position:absolute;left:0;right:0;bottom:0;padding:2rem 1.5rem;background:linear-gradient(transparent,rgba(15,24,48,.85))}
+.hero h1{color:#fff;margin:0 0 .25rem;font-size:2.4rem}
+.hero p{margin:0;max-width:40rem}
+
+/* konten */
+main{max-width:960px;margin:0 auto;padding:2rem 1.5rem}
+.dua-kolom{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;margin-bottom:2.5rem}
+.dua-kolom img{width:100%;border-radius:6px}
+.kotak{background:#fff;border-left:5px solid var(--amber);padding:1rem 1.25rem;margin-bottom:1rem}
+
+/* tabel */
+.bungkus-tabel{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:#fff}
+caption{text-align:left;font-weight:bold;padding:.5rem 0}
+th,td{padding:.7rem 1rem;text-align:left;border-bottom:1px solid #d9dfea}
+thead th{background:var(--malam);color:#fff}
+tbody tr:nth-child(even){background:#eef2f8}
+td.harga{text-align:right;white-space:nowrap}
+
+footer{background:var(--malam);color:#cfd6e6;text-align:center;padding:1.25rem}
+
+@media (max-width:700px){.dua-kolom{grid-template-columns:1fr}.hero h1{font-size:1.8rem}}
