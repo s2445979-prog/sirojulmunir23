@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img" aria-label="Ilustrasi kedai">
+<rect width="300" height="240" fill="#fbe3b5"/>
+<rect x="40" y="90" width="220" height="120" fill="#1f2a44"/>
+<polygon points="30,90 150,40 270,90" fill="#3e7c8c"/>
+<rect x="70" y="120" width="60" height="90" fill="#f0a93b"/>
+<rect x="160" y="120" width="80" height="50" fill="#ffd27a"/>
+<rect y="210" width="300" height="30" fill="#c9d3e0"/>
+</svg>

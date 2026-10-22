@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" role="img" aria-label="Secangkir kopi">
+<rect width="300" height="240" fill="#e9eef5"/>
+<ellipse cx="150" cy="190" rx="110" ry="18" fill="#c9d3e0"/>
+<path d="M80 90h140v50a70 60 0 0 1-140 0z" fill="#1f2a44"/>
+<path d="M220 105h25a25 25 0 0 1 0 50h-30" fill="none" stroke="#1f2a44" stroke-width="12"/>
+<ellipse cx="150" cy="90" rx="70" ry="12" fill="#6b3f1d"/>
+<path d="M125 65q-10-20 0-35M155 65q-10-20 0-35M185 65q-10-20 0-35" fill="none" stroke="#3e7c8c" stroke-width="5" stroke-linecap="round"/>
+</svg>
